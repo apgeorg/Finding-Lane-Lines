@@ -12,10 +12,6 @@
 This project was submitted for the Udacity Self-Driving Car Nanodegree program. 
 In this project I summarize my pipeline for detecting highway lane lines on a video stream using OpenCV image analysis techniques to identify lines, including Hough Transforms and Canny Edge detection.
 
-<video width="320" height="240" controls>
-  <source src="./test_videos_output/solidWhiteRight.mp4" type="video/mp4">
-</video>
-
 ### 1. Pipeline description
 
 My pipeline consists of 5 steps. First of all, convert the images to grayscale and apply gaussian blur to smooth the image as shown bellow.  
